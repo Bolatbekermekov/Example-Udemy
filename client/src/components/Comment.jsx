@@ -90,7 +90,7 @@ export default function Comment({ comment, onLike, onEdit, onDelete }) {
                 outline
                 onClick={() => setIsEditing(false)}
               >
-                Cancel
+                Отменить
               </Button>
             </div>
           </>
@@ -123,14 +123,14 @@ export default function Comment({ comment, onLike, onEdit, onDelete }) {
                       onClick={handleEdit}
                       className='text-gray-400 hover:text-blue-500'
                     >
-                      Edit
+                      Изменить
                     </button>
                     <button
                       type='button'
                       onClick={() => onDelete(comment._id)}
                       className='text-gray-400 hover:text-red-500'
                     >
-                      Delete
+                      Удалить
                     </button>
                   </>
                 )}

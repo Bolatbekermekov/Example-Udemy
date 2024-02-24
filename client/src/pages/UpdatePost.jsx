@@ -129,7 +129,7 @@ export default function UpdatePost() {
             }
             value={formData.category}
           >
-            <option value='uncategorized'>Select a category</option>
+            <option value='uncategorized'>Выбрать категорию</option>
             <option value='javascript'>JavaScript</option>
             <option value='reactjs'>React.js</option>
             <option value='nextjs'>Next.js</option>
@@ -180,7 +180,7 @@ export default function UpdatePost() {
           }}
         />
         <Button type='submit' gradientDuoTone='purpleToPink'>
-          Update post
+          Обновить курс
         </Button>
         {publishError && (
           <Alert className='mt-5' color='failure'>
